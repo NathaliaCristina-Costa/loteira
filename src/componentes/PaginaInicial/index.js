@@ -14,9 +14,9 @@ export default function PaginaInicial(){
     return(
         <div className="conteudo-centralizado">
             <div className="conteudo">
-            <img src={mega} alt="BigCo Inc. logo"/>
+            <img className="estilizar" src={mega} alt="BigCo Inc. logo"/>
             </div>
-            <button onClick={gerarNumero}>
+            <button  onClick={gerarNumero}>
                     Mega Sena
             </button>
             
